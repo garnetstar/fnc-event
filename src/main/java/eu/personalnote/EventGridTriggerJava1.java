@@ -25,7 +25,7 @@ public class EventGridTriggerJava1 {
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("GET");
 
-        context.getLogger().info("Java Event Grid trigger function executed.");
+        context.getLogger().info("Java Event Grid trigger function executed with send GET.");
         context.getLogger().info(message);
     }
 }
